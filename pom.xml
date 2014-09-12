@@ -263,6 +263,9 @@
 						</goals>
 					</execution>
 				</executions>
+				<configuration>
+					<webXml>src\main\webapp\WEB-INF\web.xml</webXml>    
+				</configuration>
 			</plugin>
 			<plugin>
 				<artifactId>maven-site-plugin</artifactId>
