@@ -1,15 +1,15 @@
-package com.scb.study.service;
+package com.scb.restful.service;
 
 import java.util.List;
 
-import com.scb.study.resource.Employee;
+import com.scb.resftful.resource.Employee;
 
 public interface EmployeeService {
 	
 	/*
 	 * Create methods 
 	 */
-	public void createEmployee(Employee e);
+	public long createEmployee(Employee e);
 	public void createEmployee(List<Employee> employees);
 	
 	/**
