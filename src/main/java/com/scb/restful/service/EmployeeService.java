@@ -2,7 +2,7 @@ package com.scb.restful.service;
 
 import java.util.List;
 
-import com.scb.resftful.resource.Employee;
+import com.scb.restful.resource.Employee;
 
 public interface EmployeeService {
 	

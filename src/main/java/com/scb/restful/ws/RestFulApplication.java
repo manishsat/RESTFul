@@ -5,7 +5,7 @@ import org.glassfish.jersey.media.multipart.MultiPartFeature;
 import org.glassfish.jersey.message.filtering.EntityFilteringFeature;
 import org.glassfish.jersey.server.ResourceConfig;
 
-import com.scb.resftful.resource.EmployeeResource;
+import com.scb.restful.resource.EmployeeResource;
 
 public class RestFulApplication  extends ResourceConfig{
 	/**
