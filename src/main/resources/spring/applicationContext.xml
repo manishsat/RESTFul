@@ -49,7 +49,7 @@
     	
 	<bean id="podcastDao" class="org.codingpedia.demo.rest.dao.PodcastDaoJPA2Impl"/>-->	
     <bean id="employeeService" class="com.scb.restful.service.EmployeeServiceImpl" />	
-    <bean id="employeeResource" class="com.scb.resftful.resource.EmployeeResource" />
+    <bean id="employeeResource" class="com.scb.restful.resource.EmployeeResource" />
     <!--  
     <bean id="podcastLegacyResource" class="org.codingpedia.demo.rest.resource.PodcastLegacyResource" />
     
